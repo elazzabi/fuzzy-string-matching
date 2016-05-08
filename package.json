@@ -1,6 +1,6 @@
 {
   "name": "fuzzy-string-matching",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get the degree of resemblance between two strings",
   "license": "MIT",
   "repository": "github.com/elazzabi/fuzzy-string-matching",
