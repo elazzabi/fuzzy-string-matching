@@ -1,7 +1,7 @@
 'use strict';
+const lcs = require('longest-common-subsequence');
 
 module.exports = function (firstSequence, secondSequence, caseSensitive) {
-	const lcs = require('longest-common-subsequence');
 	let lcsResultLen = lcs(firstSequence, secondSequence, caseSensitive).length;
 
 	if (lcsResultLen === 0) {
